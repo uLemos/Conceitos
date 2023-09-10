@@ -52,13 +52,14 @@
 //     console.log('hi')
 // }
 
-let colorList = []
+// let colorList = []
 
-for(let i = 1; i <= 3; i++){
-    let userColor = prompt('Digite a cor:');
-    colorList.push(userColor);
-}
+// for(let i = 1; i <= 3; i++){
+//     let userColor = prompt('Digite a cor:');
+//     colorList.push(userColor);
+// }
 
-alert(`Sua lista de cores ficou assim: ${colorList}`);
+// alert(`Sua lista de cores ficou assim: ${colorList}`);
 
-document.getElementById('listaCores').innerHTML = colorList;
+// document.getElementById('listaCores').innerHTML = colorList;
+
