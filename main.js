@@ -33,7 +33,7 @@ console.log(`divisao: ${divisao(10, 2)}`);
 
 // let lastName = prompt('Digite seu último nome:');
 
-idade = parseInt(prompt('Digite a sua idade:'));
+// idade = parseInt(prompt('Digite a sua idade:'));
 
 idade = idade + 5; //idade é uma string por estar vindo do prompt, porém, o parseInt é o convert.
 console.log(idade);
