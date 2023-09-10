@@ -46,3 +46,19 @@
 // function Envio(){
 //     return document.getElementById('resultado').innerHTML = `Seu nome é: ${nome}`; 
 // }
+
+
+// for(let i = 0; i < 10; i++){
+//     console.log('hi')
+// }
+
+let colorList = []
+
+for(let i = 1; i <= 3; i++){
+    let userColor = prompt('Digite a cor:');
+    colorList.push(userColor);
+}
+
+alert(`Sua lista de cores ficou assim: ${colorList}`);
+
+document.getElementById('listaCores').innerHTML = colorList;
