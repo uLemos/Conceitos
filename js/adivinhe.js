@@ -12,7 +12,7 @@ function checkGuess(){
         return document.getElementById('message').innerHTML = 'Too high, try again'
     }
     else if(number == randomNumber){
-        return document.getElementById('message').innerHTML = `Congratulations, the number is ${number}, ${count} tentativas!`; 
+        return document.getElementById('message').innerHTML = `Congratulations, the number is ${number}, ${count} tries!`; 
     }
 }
     

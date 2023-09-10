@@ -24,7 +24,43 @@ button {
   border-radius: 5px;
   cursor: pointer;
 } */
+body {
+  background-color: rgb(146, 135, 185);
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-input{
+button {
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: aliceblue;
+  cursor: pointer;
+  background-color: blueviolet;
+}
 
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+input[type="number"] {
+  font-size: 1.2em;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+#message {
+  font-size: 1.5em;
+  color: rgb(112, 0, 209);
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 20px;
 }
