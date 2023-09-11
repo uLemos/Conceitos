@@ -84,3 +84,24 @@ video {
   display: block;
   margin: 0 auto;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.square_1 {
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(to bottom left, red, black);
+  margin: 10px;
+}
+
+.square_2 {
+  width: 200px;
+  height: 200px;
+  background-image: radial-gradient(purple, yellow);
+  margin: 10px;
+}
