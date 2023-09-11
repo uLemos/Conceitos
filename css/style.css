@@ -47,8 +47,24 @@ h1{
 }
 
 img{
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+button{
+  background-color: blueviolet;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: block;
+  margin: 15px auto;
+  cursor: pointer;
+}
+
+button:hover{
+  transition: 1s;
+  background-color: rgb(108, 39, 172);
 }
