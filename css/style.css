@@ -95,13 +95,18 @@ video {
 .square_1 {
   width: 200px;
   height: 200px;
-  background-image: linear-gradient(to bottom left, red, black);
+  background-color: cadetblue;
+  /* background-image: linear-gradient(to bottom left, red , black 80%); */
   margin: 10px;
+  border: 5px solid black;
 }
 
 .square_2 {
   width: 200px;
   height: 200px;
-  background-image: radial-gradient(purple, yellow);
+  border: 5px solid black;
+  background-color: blueviolet;
+  border-top: 10px solid white;
+  /* background-image: radial-gradient(purple, yellow); */
   margin: 10px;
 }
