@@ -64,3 +64,51 @@ let result
     valor2.value = '';
 });
 
+
+let n1 = document.getElementById('n1');
+let n2 = document.getElementById('n2');
+let output = document.getElementById('resultado');
+
+function showEventNumbers(){
+    let inicial = Number(n1.value);
+    let final = Number(n2.value);
+    let saida = 0;
+
+    let i = inicial;
+
+    while(i <= final){
+        if(i % 2 == 0){
+            saida = saida + i + ' '
+            output.innerHTML = saida;
+        }
+        i++;
+    }
+}
+
+let numero1 = document.getElementById('inicial');
+let numero2 = document.getElementById('final');
+let output2 = document.getElementById('resultado2');
+
+function showEventNumbersImpares(){
+    let inicial = Number(numero1.value);
+    let final = Number(numero2.value);
+    let saida = 0;
+
+    let i = inicial;
+
+    do{
+        if(i % 2 !== 0){
+            saida = saida + i + ' '
+            output2.innerHTML = saida;
+        }
+        i++;
+    }while(i <= final)
+}
+
+    // while(i <= final){
+    //     if(i % 2 !== 0){
+    //         saida = saida + i + ' '
+    //         output2.innerHTML = saida;
+    //     }
+    //     i++;
+    // }
