@@ -78,6 +78,7 @@ buttonElement.addEventListener('click', function () {
     if(currentIndex >= images.length){
         currentIndex = 0;
     }
-    
+
     imageElement.src = images[currentIndex];
 })
+
