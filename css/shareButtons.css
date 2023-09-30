@@ -1,0 +1,67 @@
+* {
+  font-family: "Pixelify Sans", cursive;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100wv;
+  height: 100hv;
+  justify-content: center;
+  align-items: center;
+  padding: 160px;
+  background-color: blueviolet;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  background-color: bisque;
+  margin: 50px auto;
+  padding: 80px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  flex-wrap: wrap;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+button {
+  width: 80px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 3px 5px;
+  background-color: blueviolet;
+  color: bisque;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: width 0.5s;
+}
+
+button:hover {
+  width: 90px;
+  background-color: rgb(90, 32, 144);
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  background-color: rgb(234, 172, 255);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  color: rgb(0, 0, 0);
+}
