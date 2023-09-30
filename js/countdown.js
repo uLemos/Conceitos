@@ -7,7 +7,7 @@ let timer = 0;
 let remainingTime = 0;
 
 function updateCountdown(){
-    let minutes = Math.floor(timer / 60);
+    let minutes = Math.floor(remainingTime / 60);
     let seconds = remainingTime % 60;
     countdown.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
 }
@@ -18,8 +18,9 @@ function startCountdown(){
             remainingTime--;
             updateCountdown();
         }
-        else
-        stopCountdown();
+        else{
+            stopCountdown();
+        }
     }, 1000);
 }
 
@@ -34,7 +35,7 @@ function resetCountdown(){
 }
 
 startButton.addEventListener('click', () => {
-    remainingTime = 5 * 10;
+    remainingTime = 5 * 60;
     startCountdown();
 })
 
