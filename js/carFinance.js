@@ -18,5 +18,4 @@ function getAnnualResult(price, down, loan, interest){
 
 calculateButton.addEventListener('click', () => {
     result.textContent = getAnnualResult(carPrice, downPayment, loanTerm, interestRate).toFixed(2);
-
 });
