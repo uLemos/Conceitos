@@ -1,0 +1,59 @@
+* {
+  font-family: "Pixelify Sans", cursive;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 120px;
+  background-color: darkmagenta;
+}
+
+.container {
+  max-width: 500px;
+  background-color: rgb(77, 1, 77);
+  color: #fff;
+  padding: 40px;
+  margin: 3px 5px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  width: 50%;
+  margin: 10px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: burlywood;
+}
+
+#calculate {
+  padding: 10px;
+  background-color: blanchedalmond;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: padding 0.1s;
+}
+
+#calculate:hover {
+  background-color: rgb(195, 179, 154);
+  padding: 15px;
+}
+
+#result {
+  padding: 30px;
+  font-size: 16px;
+  color: #fff;
+}
