@@ -26,12 +26,12 @@ body {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-#newTask {
+#newtask {
   position: relative;
   padding: 30px;
 }
 
-#newTask input {
+#newtask input {
   width: 75%;
   height: 45px;
   border: 2px solid #d1d3d4;
@@ -41,12 +41,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-#newTask input:focus {
+#newtask input:focus {
   outline: none;
   border-color: purple;
 }
 
-#newTask button {
+#newtask button {
   position: relative;
   float: right;
   font-size: 16px;
@@ -62,7 +62,7 @@ body {
   transition: width 0.5s;
 }
 
-#newTask button:hover {
+#newtask button:hover {
   width: 22%;
   background-color: rgb(106, 1, 106);
 }
