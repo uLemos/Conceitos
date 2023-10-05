@@ -1,8 +1,7 @@
-document.querySelector('#push').onclick = function(){
+document.querySelector('#push').onclick = () => {
     if(document.querySelector('#newtask input').value.length == 0){
         alert("Kindly Enter Task Name!!!!")
     }
-
     else{
         document.querySelector('#tasks').innerHTML += `
             <div class="task">
@@ -16,8 +15,9 @@ document.querySelector('#push').onclick = function(){
         `;
 
         var current_tasks = document.querySelectorAll(".delete");
-        for(var i=0; i<current_tasks.length; i++){
-            current_tasks[i].onclick = function(){
+
+        for(var i = 0; i < current_tasks.length; i++){
+            current_tasks[i].onclick = () => {
                 this.parentNode.remove();
             }
         }
